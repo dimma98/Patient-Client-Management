@@ -65,7 +65,7 @@ public class PatientsAPI extends HttpServlet {
 		 String output = patientObj.updatePatient(paras.get("hidPatientIDSave").toString(),     
 		    		paras.get("pName").toString(),     
 		    		paras.get("pAddress").toString(),        
-		    		paras.get("pEmail").toString(),
+		    		paras.get("pEmail").toString().replace("%", "@"),
 		    		paras.get("pDate").toString(),  
 		    		paras.get("nic").toString(),  
 		    		paras.get("pno").toString()); 

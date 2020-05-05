@@ -39,9 +39,9 @@
 						out.print(session.getAttribute("statusMsg"));
 					%>
 				</div>
-				<div id="alertError" class="alert alert-danger"></div>
+			   <div id="alertError" class="alert alert-danger"></div>
 				
-				<br>
+			   <br>
 				<div id="divPateintsGrid">
 					<%
 						Patient patientObj = new Patient();
