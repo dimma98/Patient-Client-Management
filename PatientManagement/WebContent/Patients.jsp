@@ -34,11 +34,7 @@
 					<input type="hidden" id="hidPatientIDSave" name="hidPatientIDSave" value=""> 
 				</form>
 				
-				<div id="alertSuccess" class="alert alert-success">
-					<%
-						out.print(session.getAttribute("statusMsg"));
-					%>
-				</div>
+				<div id="alertSuccess" class="alert alert-success"> </div>
 			   <div id="alertError" class="alert alert-danger"></div>
 				
 			   <br>
